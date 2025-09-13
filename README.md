@@ -1,15 +1,16 @@
-# Interactive ATT&CK Matrix Tree
+# Interactive MITRE Tree
 
-![Interactive ATT&CK Matrix](./path-to-your-image.png)
+An interactive visualization of the MITRE ATT&CK Matrix using a tree-based structure, built with React and TypeScript.
 
-An interactive visualization of the MITRE ATT&CK Matrix using a tree-based structure, built with React.
+🌐 **Live Demo**: [https://interactive-attack-matrix.netlify.app](https://interactive-attack-matrix.netlify.app)
 
 ## Features
 
 - Hierarchical tree visualization of the MITRE ATT&CK Matrix
 - Interactive expand/collapse functionality for tactics and techniques
-- Detailed information display for each tactic
-- Clean and intuitive user interface
+- Real-world examples modal with detailed attack scenarios
+- Clean and intuitive user interface with Material-UI components
+- TypeScript support for better development experience
 
 ## Prerequisites
 
@@ -18,7 +19,12 @@ An interactive visualization of the MITRE ATT&CK Matrix using a tree-based struc
 
 ## Installation
 
-1. Clone the repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GaiShukrun/Interactive-MITRE-Tree.git
+   cd Interactive-MITRE-Tree
+   ```
+
 2. Install dependencies:
    ```bash
    npm install
@@ -45,11 +51,11 @@ npm run build
 ## Project Structure
 
 - `/src`
-  - `/components` - React components
-  - `/types` - TypeScript type definitions
-  - `/data` - ATT&CK Matrix data
-  - `/styles` - CSS and styling files
-  - `/utils` - Utility functions
+  - `/components` - React components (AttackTree, ExampleModal)
+  - `/types` - TypeScript type definitions for attack data
+  - `/data` - MITRE ATT&CK Matrix data and real-world examples
+  - `/styles` - CSS and styling files for tree visualization
+  - `/utils` - Utility functions for MITRE data fetching
 
 ## Contributing
 
