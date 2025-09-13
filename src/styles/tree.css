@@ -1,0 +1,287 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+}
+
+.rd3t-node {
+  cursor: pointer;
+  transition: all 0.2s ease !important;
+}
+
+.rd3t-node:hover circle {
+  fill: #4db6e8 !important; 
+}
+
+.rd3t-node circle {
+  fill: #0071bc;
+  stroke: none;
+  transition: fill 0.2s ease;
+}
+
+.rd3t-node text {
+  font-size: 14px;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  fill: #333;
+  transition: fill 0.2s ease;
+}
+
+.rd3t-link {
+  stroke: #0071bc;
+  stroke-width: 2px;
+  fill: none;
+  z-index: 0;
+  transition: d 0.5s ease-in-out;
+  opacity: 0.7;
+}
+
+.rd3t-label__title {
+  fill: #000;
+  stroke: none;
+  font-weight: 500;
+}
+
+.rd3t-node--internal circle {
+  fill: #0071bc !important; 
+}
+
+.rd3t-node--leaf circle {
+  fill: #00c2e8 !important; 
+}
+
+.rd3t-tree-container {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+}
+
+.rd3t-tree-container svg {
+  width: 100% !important;
+  height: 100% !important;
+  overflow: visible;
+}
+
+.rd3t-tree-container svg g {
+  transform-origin: center !important;
+  transition: all 0.5s ease !important;
+}
+
+.rd3t-node foreignObject {
+  overflow: visible;
+  pointer-events: none;
+}
+
+.rd3t-node foreignObject > div {
+  pointer-events: all;
+  position: relative;
+  z-index: 1;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 113, 188, 0.2);
+  border-radius: 8px;
+}
+
+.rd3t-node:hover foreignObject > div {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.node-info {
+  padding: 1.25rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 113, 188, 0.1);
+}
+
+.row-node circle {
+  fill: #0071bc !important; 
+}
+
+.row-node text {
+  fill: #000000 !important;
+  font-weight: bold;
+}
+
+.rd3t-tree-container.multi-row .rd3t-node {
+  margin-bottom: 12px;
+}
+
+.rd3t-tree-container.multi-row .rd3t-link {
+  stroke: #0071bc;
+  stroke-width: 2px;
+  opacity: 0.7;
+}
+
+.row-node foreignObject > div {
+  background: linear-gradient(135deg, rgba(0, 113, 188, 0.1) 0%, rgba(0, 113, 188, 0.2) 100%);
+  border: 1px solid rgba(0, 113, 188, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.row-node:hover foreignObject > div {
+  background: linear-gradient(135deg, rgba(0, 113, 188, 0.15) 0%, rgba(0, 113, 188, 0.25) 100%);
+}
+
+.technique-node circle {
+  fill: #00c2e8 !important; 
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(0, 194, 232, 0.4); }
+  70% { box-shadow: 0 0 0 6px rgba(0, 194, 232, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 194, 232, 0); }
+}
+
+.technique-node foreignObject > div {
+  border: 1px solid rgba(0, 194, 232, 0.3);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(0, 194, 232, 0.05) 100%);
+}
+
+.technique-node:hover foreignObject > div {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(0, 194, 232, 0.1) 100%);
+}
+
+.enterprise-node circle {
+  fill: #003366 !important; 
+  animation: rotate 3s ease-in-out infinite;
+}
+
+.enterprise-node foreignObject > div {
+  border: 1px solid rgba(0, 51, 102, 0.3);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(0, 51, 102, 0.05) 100%);
+}
+
+.enterprise-node:hover foreignObject > div {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(0, 51, 102, 0.1) 100%);
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(1deg); }
+  75% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.ics-node circle {
+  fill: #1e88e5 !important; 
+  animation: rotate 3s ease-in-out infinite;
+}
+
+.ics-node foreignObject > div {
+  border: 1px solid rgba(30, 136, 229, 0.3);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(30, 136, 229, 0.05) 100%);
+}
+
+.ics-node:hover foreignObject > div {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(30, 136, 229, 0.1) 100%);
+}
+
+.tactic-node circle {
+  fill: #005a9e !important;
+  filter: drop-shadow(0 0 2px rgba(0, 90, 158, 0.5));
+  transition: filter 0.3s ease;
+}
+
+.tactic-node:hover circle {
+  filter: drop-shadow(0 0 4px rgba(0, 90, 158, 0.8));
+}
+
+.tactic-node foreignObject > div {
+  border: 1px solid rgba(0, 90, 158, 0.3);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(0, 90, 158, 0.05) 100%);
+}
+
+.tactic-node:hover foreignObject > div {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(0, 90, 158, 0.1) 100%);
+}
+
+/* Plus/minus indicators */
+.node-indicator {
+  fill: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+}
+
+.node-circle {
+  cursor: pointer;
+}
+
+.active-node {
+  filter: drop-shadow(0 0 6px rgba(33, 150, 243, 0.6));
+}
+
+@keyframes nodeExpand {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.node--internal.expanding circle {
+  animation: nodeExpand 0.3s ease-out;
+}
+
+.node-circle:active::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(33, 150, 243, 0.4);
+  animation: ripple 0.6s ease-out;
+}
+
+@keyframes ripple {
+  0% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% { 
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.node:hover circle:not(.active-node) {
+  fill: #4db6e8 !important; 
+}
+
+.node:hover text {
+  fill: #2196f3;
+  font-weight: bold;
+}
+
+.node-tooltip {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  max-width: 200px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.rd3t-node:hover .node-tooltip {
+  opacity: 1;
+}
