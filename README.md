@@ -43,6 +43,25 @@ Interactive MITRE Tree transforms the complex MITRE ATT&CK framework into an int
 [![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Visit_App-blue?style=for-the-badge)](https://interactive-attack-matrix.netlify.app)
 
 
+
+## Application Screenshots
+
+### Interactive Tree Navigation
+![Tree Navigation](src/Images/Interactive%20Tree%20Navigation.jpg)
+
+*Navigate through the MITRE ATT&CK framework using an intuitive tree structure with expand/collapse functionality*
+
+### Detailed Information Panels
+![Detailed Information Panels](src/Images/Detailed%20Information%20Panels.jpg)
+
+*View comprehensive technique descriptions, detection methods, and real-world examples*
+
+### Real-World Attack Examples
+![Real-World Attack Examples](src/Images/Real-World%20Attack%20Examples.jpg)
+
+
+*Explore historical incidents and understand how theoretical techniques are applied in practice*
+
 ## Core Features
 
 ### 🌲 Interactive Tree Navigation
@@ -69,22 +88,6 @@ Interactive MITRE Tree transforms the complex MITRE ATT&CK framework into an int
 - **Custom Node Icons**: Emoji-based visual indicators for different attack types
 - **Smooth Animations**: Fluid transitions and interactions throughout the application
 
-## Application Screenshots
-
-### Interactive Tree Navigation
-<img src="https://via.placeholder.com/600x400/1976d2/ffffff?text=Interactive+MITRE+Tree+Visualization" width="600"/>
-
-*Navigate through the MITRE ATT&CK framework using an intuitive tree structure with expand/collapse functionality*
-
-### Detailed Information Panels
-<img src="https://via.placeholder.com/600x400/dc004e/ffffff?text=Technique+Details+%26+Information+Panel" width="600"/>
-
-*View comprehensive technique descriptions, detection methods, and real-world examples*
-
-### Real-World Attack Examples
-<img src="https://via.placeholder.com/600x400/2e7d32/ffffff?text=Real-World+Attack+Examples+Modal" width="600"/>
-
-*Explore historical incidents and understand how theoretical techniques are applied in practice*
 
 ## Quick Start
 
