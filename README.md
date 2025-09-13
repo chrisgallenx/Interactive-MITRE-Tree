@@ -1,16 +1,16 @@
-# Interactive MITRE Tree
+<<<<<<< HEAD
+# Interactive ATT&CK Matrix Tree
 
-An interactive visualization of the MITRE ATT&CK Matrix using a tree-based structure, built with React and TypeScript.
+![Interactive ATT&CK Matrix](./path-to-your-image.png)
 
-🌐 **Live Demo**: [https://interactive-attack-matrix.netlify.app](https://interactive-attack-matrix.netlify.app)
+An interactive visualization of the MITRE ATT&CK Matrix using a tree-based structure, built with React.
 
 ## Features
 
 - Hierarchical tree visualization of the MITRE ATT&CK Matrix
 - Interactive expand/collapse functionality for tactics and techniques
-- Real-world examples modal with detailed attack scenarios
-- Clean and intuitive user interface with Material-UI components
-- TypeScript support for better development experience
+- Detailed information display for each tactic
+- Clean and intuitive user interface
 
 ## Prerequisites
 
@@ -19,12 +19,7 @@ An interactive visualization of the MITRE ATT&CK Matrix using a tree-based struc
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/GaiShukrun/Interactive-MITRE-Tree.git
-   cd Interactive-MITRE-Tree
-   ```
-
+1. Clone the repository
 2. Install dependencies:
    ```bash
    npm install
@@ -51,11 +46,11 @@ npm run build
 ## Project Structure
 
 - `/src`
-  - `/components` - React components (AttackTree, ExampleModal)
-  - `/types` - TypeScript type definitions for attack data
-  - `/data` - MITRE ATT&CK Matrix data and real-world examples
-  - `/styles` - CSS and styling files for tree visualization
-  - `/utils` - Utility functions for MITRE data fetching
+  - `/components` - React components
+  - `/types` - TypeScript type definitions
+  - `/data` - ATT&CK Matrix data
+  - `/styles` - CSS and styling files
+  - `/utils` - Utility functions
 
 ## Contributing
 
@@ -64,3 +59,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+# Interactive-MITRE-Tree
+>>>>>>> 507e3a50370d8f18380bd17806df522f1a71baf7
