@@ -6,7 +6,7 @@ An interactive visualization of the MITRE ATT&CK Framework using hierarchical tr
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Visit_App-blue?style=for-the-badge)](https://interactive-attack-matrix.netlify.app)
+
 [![React](https://img.shields.io/badge/react-19.0.0-blue)]()
 [![TypeScript](https://img.shields.io/badge/typescript-5.0+-blue)]()
 
@@ -40,7 +40,7 @@ Interactive MITRE Tree transforms the complex MITRE ATT&CK framework into an int
 
 <H2>🚀 Demo</H2>
 
-[interactive-attack-matrix.netlify.app](https://interactive-attack-matrix.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Visit_App-blue?style=for-the-badge)](https://interactive-attack-matrix.netlify.app)
 
 
 ## Core Features
